@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta charset = "utf-8" /> 
+<title>RaptorX</title>
+<link rel = "icon" href =  
+"https://www.southernmarylandlaw.com/wp-content/uploads/drone-1.jpg" 
+        type = "image/x-icon"> 
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<style>
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+  color:white;
+  
+}
+body  {
+  background-image: url("https://raw.githubusercontent.com/benittotomy/My-Website/master/233095-02.jpeg");
+ 
+  background-repeat: no-repeat;
+  height: 100px;
+  background-size: cover;
+</style>
+<style>
+h1 {
+  background-color: green;
+}
+div.absolute1 {
+  position: absolute;
+  top: 250px;
+  right: 780;
+  width: 250px;
+  height: 300px;
+  
+  font-family: "Allerta Stencil", Sans-serif;
+  color:white;
+}
+div.absoluteX {
+  position: absolute;
+  top: 450px;
+  right: 325;
+  width: 168px;
+  height: 50px;
+  
+  font-family: "Allerta Stencil", Sans-serif;
+  color:white;
+}
+div.absolute {	
+  position: absolute;
+  top: 250px;
+  right: 500;
+  width: 250px;
+  height: 300px;
+  
+  font-family: "Allerta Stencil", Sans-serif;
+  color:white;
+}
+div.absolute2 {
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  width: 250px;
+  height: 300px;
+  
+  font-family: "Allerta Stencil", Sans-serif;
+  color:white;
+}
+</style>
+<body>
+<div class="absoluteX w3-panel w3-round-xlarge w3-amber ">
+Click to View Captured Images
+</i>
+</div>
+<div class="absolute2 w3-panel w3-round-xlarge ">
+<p><b>Take-off Coordinates:</b></p>
+<p><i>latitude: 43.777019</p>
+<p>longitude: -79.316005</p></i>
+<p><b>Human Detected at:</b></p>
+<p><i>latitude: 43.776682</p>
+<p>longitude: -79.317459</p></i>
+</div>
+<div class="absolute1 w3-panel w3-round-xlarge ">
+<p><b>Parameters</b></p>
+<p><i>Altitude: 6 Meter</p>
+<p><i>Velocity: 4m/s</p>
+<p><i>Battery:96%</p>
+<p><i>Flight-Mode:Stable</p>
+<p><i>Distance to Home:150 Meter</p></i>
+
+</div>
+
+    <br>
+    <div class="w3-container w3-center w3-allerta w3-display-topmiddle w3-panel"><br>
+    <p class="w3-xxlarge">Search and Rescue Drone</p></div>
+    <div class="absolute w3-panel w3-round-xlarge">
+    <style> 
+        input[type=button], input[type=submit]{
+        background-color: rgb(90, 197, 108);
+        border: none;
+        color: black;
+        padding: 8px 8px;
+        text-decoration: none;
+        margin: -100px 245px;
+        cursor: pointer;
+        }
+        </style>
+    <style>
+    input[type=reset] {
+        background-color: rgb(226, 92, 92);
+        border: none;
+        color: black;
+        padding: 7px 60px;
+        text-decoration: none;
+        margin:-56px 245px;
+        cursor: pointer;
+        }
+        </style> 
+        
+    <form action="http://maps.google.com/maps" method="get" target="_blank">
+<p><b>Navigator</b></p>
+<br>
+Home coordinates:
+<input type="text" name="saddr"/>
+Target coordinates:
+
+<input type="text" name="daddr"/>
+<p>
+<input type="submit" value="Direct me to target" />
+<input type="reset" value="Reset" />
+</p>
+</form>
+</div>
+</div>
+</body>
+</html>
